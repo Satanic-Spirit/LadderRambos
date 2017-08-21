@@ -12,22 +12,22 @@
 			"CBaseCombatWeapon::m_iClip1"
 			{
 				"linux"		"5152"
-				"windows"	""
+				"windows"	"5140"
 			}
 			"CBaseEntity::m_owner"
 			{
 				"linux"		"5108"
-				"windows"	""
+				"windows"	"5096"
 			}
 			"CBaseEntity::movetype"
 			{
 				"linux"		"390"
-				"windows"	""
+				"windows"	"370"
 			}
 			"CTerrorPlayer::PreThink__SafeDropLogic"
 			{
 				"linux"		"181"
-				"windows"	""
+				"windows"	"181"
 			}
 		}
 
@@ -61,7 +61,8 @@
 			{
 				"library"	"server"
 				"linux"		"@_ZN13CTerrorPlayer8PreThinkEv"
-				"windows"	""
+				"windows"	"\x55\x8B\xEC\x83\xEC\x64\xA1\x2A\x2A\x2A\x2A\x33\xC5\x89\x45\xFC\x56\x57\x8B\xF1"
+				/* 55 8B EC 83 EC 64 A1 ? ? ? ? 33 C5 89 45 FC 56 57 8B F1 */
 			}
 		}
 	}
